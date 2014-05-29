@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0390e1-b48a-4b1d-b2d0-5da201e3d898" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/fonts/League_Gothic-webfont.eot" afterPath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/fonts/League_Gothic-webfont.svg" afterPath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/fonts/League_Gothic-webfont.ttf" afterPath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/fonts/League_Gothic-webfont.woff" afterPath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/bg-light.png" afterPath="$PROJECT_DIR$/statics/images/bg-light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/bg.png" afterPath="$PROJECT_DIR$/statics/images/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/btn-subscribe.png" afterPath="$PROJECT_DIR$/statics/images/btn-subscribe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/divider.png" afterPath="$PROJECT_DIR$/statics/images/divider.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/form-bg.png" afterPath="$PROJECT_DIR$/statics/images/form-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/logo.png" afterPath="$PROJECT_DIR$/statics/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/progress-bar.png" afterPath="$PROJECT_DIR$/statics/images/progress-bar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/progress-container.png" afterPath="$PROJECT_DIR$/statics/images/progress-container.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/tipsy.gif" afterPath="$PROJECT_DIR$/statics/images/tipsy.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/tipsy.png" afterPath="$PROJECT_DIR$/statics/images/tipsy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/txt-launch-day-hat.png" afterPath="$PROJECT_DIR$/statics/images/txt-launch-day-hat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/images/txt-launch-day.png" afterPath="$PROJECT_DIR$/statics/images/txt-launch-day.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/index.html" afterPath="$PROJECT_DIR$/statics/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/javascripts/jquery.tipsy.js" afterPath="$PROJECT_DIR$/statics/javascripts/jquery.tipsy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/HTML/style.css" afterPath="$PROJECT_DIR$/statics/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/name_template.html" />
     </list>
     <ignored path="delta_price.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,13 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.32225063" vertical-offset="0" max-vertical-offset="396">
+            <state line="16" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="name_template.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/name_template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="364">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,12 +70,13 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/statics/index.html" />
         <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/templates/name_template.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="152" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -365,18 +355,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="152" width="1301" height="744" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25019246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25019246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34423676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34423676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -457,10 +447,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.32225063" vertical-offset="0" max-vertical-offset="396">
+        <state line="16" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/name_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="364">
+          <folding />
         </state>
       </provider>
     </entry>
