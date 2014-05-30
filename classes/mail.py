@@ -6,8 +6,8 @@ from email.MIMEText import MIMEText
 
 HOST = 'smtp.gmail.com'
 PORT = '587'
-USERNAME = 'deltaprice1@gmail.com'
-PASSWORD = 'vc1123581311'
+USERNAME = 'support@deltaprice.net'
+PASSWORD = 'Vc141592'
 
 class Mail:
     @staticmethod
@@ -38,5 +38,5 @@ if __name__ == "__main__":
     The deltaprice database server maintenance is
     %s
     '''
-    SendMail.send_mail(["vovacooper@gmail.com"], '"IT Staff" ', 'deltaprice server maintenance notice', message)
+    Mail.send_mail(["vovacooper@gmail.com"], '"IT Staff" ', 'deltaprice server maintenance notice', message)
 
