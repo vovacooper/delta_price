@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0390e1-b48a-4b1d-b2d0-5da201e3d898" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.eot" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.svg" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.ttf" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.woff" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/bg-light.png" afterPath="$PROJECT_DIR$/static/images/bg-light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/bg.png" afterPath="$PROJECT_DIR$/static/images/bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/btn-subscribe.png" afterPath="$PROJECT_DIR$/static/images/btn-subscribe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/divider.png" afterPath="$PROJECT_DIR$/static/images/divider.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/form-bg.png" afterPath="$PROJECT_DIR$/static/images/form-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/logo.png" afterPath="$PROJECT_DIR$/static/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/progress-bar.png" afterPath="$PROJECT_DIR$/static/images/progress-bar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/progress-container.png" afterPath="$PROJECT_DIR$/static/images/progress-container.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/tipsy.gif" afterPath="$PROJECT_DIR$/static/images/tipsy.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/tipsy.png" afterPath="$PROJECT_DIR$/static/images/tipsy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/txt-launch-day-hat.png" afterPath="$PROJECT_DIR$/static/images/txt-launch-day-hat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/txt-launch-day.png" afterPath="$PROJECT_DIR$/static/images/txt-launch-day.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/index.html" afterPath="$PROJECT_DIR$/templates/under_construction.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/javascripts/jquery.tipsy.js" afterPath="$PROJECT_DIR$/static/javascripts/jquery.tipsy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/name_template.html" afterPath="$PROJECT_DIR$/templates/name_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/under_construction.html" afterPath="$PROJECT_DIR$/templates/under_construction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="delta_price.iws" />
@@ -60,7 +40,7 @@
       <file leaf-file-name="under_construction.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="609" selection-end="609" vertical-scroll-proportion="0.47737908" vertical-offset="0" max-vertical-offset="936">
+            <state line="14" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.39313573" vertical-offset="0" max-vertical-offset="936">
               <folding />
             </state>
           </provider>
@@ -521,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="609" selection-end="609" vertical-scroll-proportion="0.47737908" vertical-offset="0" max-vertical-offset="936">
+        <state line="14" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.39313573" vertical-offset="0" max-vertical-offset="936">
           <folding />
         </state>
       </provider>
