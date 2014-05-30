@@ -22,7 +22,19 @@
     <favorites_list name="delta_price" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="mail.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="8" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.84931505" vertical-offset="162" max-vertical-offset="864">
+              <folding>
+                <element signature="e#27#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -30,6 +42,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vovacooper" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -99,6 +116,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -126,7 +157,7 @@
       <recent name="$PROJECT_DIR$/statics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.web">
+  <component name="RunManager" selected="Python.mail">
     <configuration default="false" name="Unittests in $PROJECT_DIR$" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,9 +373,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.web" />
-        <item index="1" class="java.lang.String" itemvalue="Python.logger" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mail" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mail" />
+        <item index="1" class="java.lang.String" itemvalue="Python.web" />
+        <item index="2" class="java.lang.String" itemvalue="Python.logger" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in /home/vovacooper/delta_price" />
       </list>
     </recent_temporary>
@@ -373,17 +404,23 @@
       <created>1401254963335</created>
       <updated>1401254963335</updated>
     </task>
+    <task id="LOCAL-00001" summary="new main support@deltaprice.net">
+      <created>1401493180716</created>
+      <updated>1401493180716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1795" height="1021" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -410,6 +447,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="new main support@deltaprice.net" />
+    <option name="LAST_COMMIT_MESSAGE" value="new main support@deltaprice.net" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,7 +476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="234">
           <folding>
-            <element signature="e#27#47#0" expanded="true" />
+            <element signature="e#27#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,38 +568,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="-0.26633167" vertical-offset="267" max-vertical-offset="864">
-          <folding>
-            <element signature="e#27#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/mongo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.21105528" vertical-offset="0" max-vertical-offset="597">
           <folding>
-            <element signature="e#27#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="172" selection-end="172" vertical-scroll-proportion="0.24120604" vertical-offset="0" max-vertical-offset="597">
-          <folding>
-            <element signature="e#27#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/data_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.16438356" vertical-offset="90" max-vertical-offset="792">
-          <folding>
-            <element signature="e#28#80#0" expanded="true" />
+            <element signature="e#27#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,10 +584,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.02739726" vertical-offset="0" max-vertical-offset="657">
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="544" selection-end="544" vertical-scroll-proportion="0.3561644" vertical-offset="0" max-vertical-offset="657">
+        <state line="10" column="22" selection-start="316" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/data_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="313" selection-end="324" vertical-scroll-proportion="0.1369863" vertical-offset="90" max-vertical-offset="792">
+          <folding>
+            <element signature="e#28#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="8" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.84931505" vertical-offset="162" max-vertical-offset="864">
+          <folding>
+            <element signature="e#27#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
