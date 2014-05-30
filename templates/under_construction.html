@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Coming Soon to a Browser Near You</title>		
-		<link rel="stylesheet" type="text/css" href="/static/style.css" />
+		<link rel="stylesheet" type="text/css" href={{url_for('static', filename = "style.css") }} />
 		
 		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
 		<script type='text/javascript' src={{url_for('static', filename = 'javascripts/jquery.tipsy.js') }}></script>
