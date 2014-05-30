@@ -23,7 +23,6 @@ def hello1(name=None):
     return render_template('name_template.html', name=name)
 
 ########################################################################################################################
-#MAIN
 if __name__ == "__main__":
     app.run()
 
