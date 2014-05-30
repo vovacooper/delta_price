@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0390e1-b48a-4b1d-b2d0-5da201e3d898" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/name_template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.eot" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.svg" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.ttf" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/fonts/League_Gothic-webfont.woff" afterPath="$PROJECT_DIR$/static/fonts/League_Gothic-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/bg-light.png" afterPath="$PROJECT_DIR$/static/images/bg-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/bg.png" afterPath="$PROJECT_DIR$/static/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/btn-subscribe.png" afterPath="$PROJECT_DIR$/static/images/btn-subscribe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/divider.png" afterPath="$PROJECT_DIR$/static/images/divider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/form-bg.png" afterPath="$PROJECT_DIR$/static/images/form-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/logo.png" afterPath="$PROJECT_DIR$/static/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/progress-bar.png" afterPath="$PROJECT_DIR$/static/images/progress-bar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/progress-container.png" afterPath="$PROJECT_DIR$/static/images/progress-container.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/tipsy.gif" afterPath="$PROJECT_DIR$/static/images/tipsy.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/tipsy.png" afterPath="$PROJECT_DIR$/static/images/tipsy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/txt-launch-day-hat.png" afterPath="$PROJECT_DIR$/static/images/txt-launch-day-hat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/images/txt-launch-day.png" afterPath="$PROJECT_DIR$/static/images/txt-launch-day.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/index.html" afterPath="$PROJECT_DIR$/templates/under_construction.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/javascripts/jquery.tipsy.js" afterPath="$PROJECT_DIR$/static/javascripts/jquery.tipsy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/name_template.html" afterPath="$PROJECT_DIR$/templates/name_template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="delta_price.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +49,7 @@
       <file leaf-file-name="web.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+            <state line="11" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -36,19 +57,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="name_template.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/name_template.html">
+      <file leaf-file-name="under_construction.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="364">
+            <state line="17" column="8" selection-start="609" selection-end="609" vertical-scroll-proportion="0.47737908" vertical-offset="0" max-vertical-offset="936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="28" column="13" selection-start="742" selection-end="742" vertical-scroll-proportion="-13.68" vertical-offset="162" max-vertical-offset="3222">
               <folding />
             </state>
           </provider>
@@ -67,18 +88,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/statics/index.html" />
-        <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/templates/name_template.html" />
+        <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/templates/under_construction.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1795" />
+    <option name="height" value="1021" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -125,6 +147,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="delta_price" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -146,6 +196,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/statics" />
     </key>
   </component>
@@ -355,22 +406,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="64" y="-4" width="1795" height="1021" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25019246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18126045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34423676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24047878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -440,23 +491,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="4" column="21" selection-start="75" selection-end="75" vertical-scroll-proportion="0.12286689" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/name_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="151" selection-end="151" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="742" selection-end="742" vertical-scroll-proportion="-13.68" vertical-offset="162" max-vertical-offset="3222">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+        <state line="11" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/name_template.html">
+    <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="364">
+        <state line="17" column="8" selection-start="609" selection-end="609" vertical-scroll-proportion="0.47737908" vertical-offset="0" max-vertical-offset="936">
           <folding />
         </state>
       </provider>
