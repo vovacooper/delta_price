@@ -1,5 +1,6 @@
 __author__ = 'vovacooper'
 
+from providers import geo_ip_provider
 
 #from classes.mongo import db
 #from providers.geo_ip_provider import GeoIpProvider
@@ -19,10 +20,13 @@ class DataProvider():
             }
 
     def get_data(self):
+        _gip = geo_ip_provider.GeoIpProvider();
+        _json_gip = _gip.get_ip_info(self._request_data["ip"]);
         return \
             {
                 "name": "vovacooper",
                 "category": "haha",
                 "type": "data from data_provider",
-                "ip": self._request_data["ip"]
+                "geo_ip_data": _json_gip,
+                "tags":self._request_data["tags"]
             }

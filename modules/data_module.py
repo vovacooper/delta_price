@@ -17,7 +17,9 @@ def get_data():
     try:
         request_data = \
             {
-                "ip": request.remote_addr
+                "ip": request.remote_addr,
+                 "callback": request.args.get("callback", False),
+                 "tags":request.args.get("tags", False)
             }
 
         #init data provider
@@ -26,6 +28,9 @@ def get_data():
         response_data = data_provider.get_data()
         #make json
         response_json = json.dumps(response_data)
+
+        if request_data["callback"]:
+            response_json = "{0}({1})".format(request_data["callback"], json.dumps(response_data))
 
         return Response(response=response_json, status=200, mimetype="application/json",
                         headers={"P3P": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD "

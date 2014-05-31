@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 from flask import url_for, redirect
 from flask import render_template
 
@@ -21,6 +21,12 @@ def hello():
 @app.route('/hello/<name>')
 def hello1(name=None):
     return render_template('name_template.html', name=name)
+
+
+#return main JS
+@app.route('/js/')
+def mainjs():
+    return send_from_directory(app.static_folder + '/javascripts', 'main.js')
 
 ########################################################################################################################
 if __name__ == "__main__":
