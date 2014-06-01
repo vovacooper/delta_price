@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Coming Soon to a Browser Near You</title>		
-		<link rel="stylesheet" type="text/css" href={{url_for('static', filename = "style.css") }} />
+		<link rel="stylesheet" type="text/css" href={{url_for('static', filename="style.css") }} />
 		
 		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
 		<script type='text/javascript' src={{url_for('static', filename = 'javascripts/jquery.tipsy.js') }}></script>
@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<img src={{url_for('static', filename = "images/delta_price.png") }} alt="YourLogo" title="YourLogo"/>
+			<img src={{url_for('static', filename="images/delta_price.png") }} alt="YourLogo" title="YourLogo"/>
 			<div class="hr"></div>
 			<h1>Coming Soon to a Browser Near You</h1>
 			<p>Unfortunately, we’re not quite ready yet. <strong> But, you can see our progress below:</strong></p>
@@ -35,8 +35,8 @@
 			<section class="mailing-list">
 				<h2>Want to be the first to know when we're ready?</h2>
 				<form>
-					<input type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
-					<input type="submit" value="Subscribe">	
+					<input id="emil_address" type="text" value="your@email.com" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+					<input type="submit1" value="Subscribe" onfocus="send_mail( $( '#emil_address').attr('value') )">
 				</form>
 			</section><div class="clear"></div>
 			<div class="hr"></div>
@@ -44,4 +44,27 @@
 			<p class="credit">Template by <a href="http://www.medialoot.com">MediaLoot</a></p>
 		</div>
 	</body>
+    <script>
+        function send_mail(email){
+            if(isValidEmailAddress(email)){
+                //send search data so server
+                $.getJSON(
+                    "http://127.0.0.1:5000/subscribe/?callback=?",
+                    {
+                        "email": email
+                    },
+                    function(data) {
+                        console.log("status from server: " + data.status)
+                    }
+                );
+            }else{
+                console.log("not valid " + email)
+            }
+        }
+        function isValidEmailAddress(emailAddress) {
+            var pattern = new RegExp(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/);
+            return pattern.test(emailAddress);
+        };
+
+    </script>
 </html>

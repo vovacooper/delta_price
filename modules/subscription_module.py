@@ -1,31 +1,29 @@
 __author__ = 'vovacooper'
 
+from classes.logger import logger
+
+from providers.subscription_provider import SubscriptionProvider
 
 from flask import Blueprint, request, Response, json
 
-from classes.logger import logger
-
-from providers.data_provider import DataProvider
+########################################################################################################################
+subscription_module = Blueprint("subscription_module", __name__, url_prefix="/subscribe")
 
 ########################################################################################################################
-data_module = Blueprint("data_module", __name__, url_prefix="/data")
-
-
-########################################################################################################################
-@data_module.route("/init")
-def get_data():
+@subscription_module.route('/')
+def subscribe():
     try:
         request_data = \
             {
                 "ip": request.remote_addr,
                 "callback": request.args.get("callback", False),
-                "tags": request.args.get("tags", False)
+                "email": request.args.get("email", False)
             }
 
         #init data provider
-        data_provider = DataProvider(request_data)
+        subscription_provider = SubscriptionProvider(request_data)
         #get data from provider
-        response_data = data_provider.get_data()
+        response_data = subscription_provider.get_data()
         #make json
         response_json = json.dumps(response_data)
 
@@ -39,5 +37,6 @@ def get_data():
         logger.exception(e)
         response = Response(response=None, status=200)
         return response
+
 
 

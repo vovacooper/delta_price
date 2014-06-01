@@ -6,8 +6,8 @@ from email.MIMEText import MIMEText
 
 HOST = 'smtp.gmail.com'
 PORT = '587'
-USERNAME = 'support@deltaprice.net'
-PASSWORD = 'Vc141592'
+USERNAME = 'vovacooper@deltaprice.net'
+PASSWORD = 'Vc@141592'
 
 class Mail:
     @staticmethod

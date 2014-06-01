@@ -1,20 +1,29 @@
-from flask import Flask, request, send_from_directory
+from flask import Flask, request,Response, send_from_directory
 from flask import url_for, redirect
 from flask import render_template
 
+from classes import logger
+
 ########################################################################################################################
 from modules.data_module import data_module
+from modules.subscription_module import subscription_module
+
 
 #Flast entry point
 app = Flask(__name__)
 
 app.register_blueprint(data_module)
+app.register_blueprint(subscription_module)
+
 
 ########################################################################################################################
 @app.route("/")
 def hello():
     return render_template('under_construction.html')
    #return "Hello World! {0}".format(request.remote_addr)
+
+
+
 
 #example
 @app.route('/hello/')

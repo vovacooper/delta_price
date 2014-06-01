@@ -141,7 +141,7 @@ body {
 		margin: 0;
 		}
 		
-		.mailing-list input[type=submit]{
+		.mailing-list input[type=submit1]{
 		width:90px;
 		height: 44px;
 		background: url(images/btn-subscribe.png) no-repeat;
@@ -152,11 +152,11 @@ body {
 		text-transform: capitalize;1
 		}
 		
-		.mailing-list input[type=submit]:hover{
+		.mailing-list input[type=submit1]:hover{
 		background-position: 0 -44px;
 		}
 		
-		.mailing-list input[type=submit]:active{
+		.mailing-list input[type=submit1]:active{
 		background-position: 0 -88px;
 		}
 		
