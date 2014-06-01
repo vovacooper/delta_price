@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a0390e1-b48a-4b1d-b2d0-5da201e3d898" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/subscription_module.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/providers/subscription_provider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/data_module.py" afterPath="$PROJECT_DIR$/modules/data_module.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/mail.py" afterPath="$PROJECT_DIR$/classes/mail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/under_construction.html" afterPath="$PROJECT_DIR$/templates/under_construction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.py" afterPath="$PROJECT_DIR$/web.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="delta_price.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +55,8 @@
         <option value="$PROJECT_DIR$/classes/mail.py" />
         <option value="$PROJECT_DIR$/providers/subscription_provider.py" />
         <option value="$PROJECT_DIR$/modules/data_module.py" />
-        <option value="$PROJECT_DIR$/templates/under_construction.html" />
         <option value="$PROJECT_DIR$/modules/subscription_module.py" />
+        <option value="$PROJECT_DIR$/templates/under_construction.html" />
       </list>
     </option>
   </component>
@@ -515,11 +508,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17233686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17233686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25244832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25244832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,13 +694,6 @@
         <state line="7" column="3" selection-start="265" selection-end="265" vertical-scroll-proportion="0.19936709" vertical-offset="0" max-vertical-offset="632" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="49" selection-start="3280" selection-end="3280" vertical-scroll-proportion="0.7911715" vertical-offset="2378" max-vertical-offset="3222">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/providers/geo_ip_provider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="25" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
@@ -754,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="21" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.3888889" vertical-offset="691" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/providers/subscription_provider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="21" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="657">
@@ -774,6 +753,20 @@
           <folding>
             <element signature="e#27#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="37" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.4911147" vertical-offset="2486" max-vertical-offset="3222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/under_construction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="51" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.44603175" vertical-offset="259" max-vertical-offset="1350">
+          <folding />
         </state>
       </provider>
     </entry>
