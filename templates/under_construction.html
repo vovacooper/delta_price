@@ -48,17 +48,21 @@
         function send_mail(email){
             if(isValidEmailAddress(email)){
                 //send search data so server
-                $.getJSON(
-                    "http://www.deltaprice.net/subscribe/?callback=?",
-                    {
-                        "email": email
-                    },
-                    function(data) {
-                        console.log("status from server: " + data.status)
-                    }
-                );
+                $.ajax({
+                     url : "http://www.deltaprice.net/subscribe/" ,
+                     data : { "email" : email  },
+                     success: function(data){
+                           // do stuff with data
+                           if(data.status == "OK"){
+                                $( '#emil_address').attr({'value': 'Thank you!'})
+                           }else{
+                                $( '#emil_address').attr({'value': "status from server: " + data.status})
+                           }
+                           console.log("status from server: " + data.status)
+                     }
+                });
             }else{
-                console.log("not valid " + email)
+                console.log("The email " + email + " is not valid!" )
             }
         }
         function isValidEmailAddress(emailAddress) {

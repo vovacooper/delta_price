@@ -9,7 +9,8 @@ class SubscriptionProvider():
         self._request_data = request_data
 
     def get_data(self):
-        SubscriptionProvider.subscribe(self._request_data["email"])
+        #SubscriptionProvider.subscribe(self._request_data["email"])
+        #TODO add new subscriber to DB!
         return \
             {
                 "status": "OK"
