@@ -4,6 +4,7 @@ import requests
 from classes.logger import logger
 from classes.config import *
 
+
 class GeoIpProvider:
     def get_ip_info(self, ip):
         try:

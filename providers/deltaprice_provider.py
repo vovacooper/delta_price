@@ -8,7 +8,7 @@ from providers import geo_ip_provider
 
 
 ########################################################################################################################
-class DataProvider():
+class DeltaPriceProvider():
     _request_data = {}
 
     def __init__(self, request_data):
@@ -20,9 +20,12 @@ class DataProvider():
                 "sl": {"l_url": "", "r_url": "", "b_url": ""}
             }
 
+    def get_js(self):
+        return 'alert("No js in delta_price provider!!!!");'
+
     def get_data(self):
-        _gip = geo_ip_provider.GeoIpProvider();
-        _json_gip = _gip.get_ip_info(self._request_data["ip"]);
+        _gip = geo_ip_provider.GeoIpProvider()
+        _json_gip = _gip.get_ip_info(self._request_data["ip"])
         return \
             {
                 "name": "vovacooper",
