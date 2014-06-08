@@ -13,8 +13,11 @@ deltaprice_module = Blueprint("deltaprice_module", __name__, url_prefix="/dp")
 
 
 ########################################################################################################################
-#TODO add main_js provider
-
+'''
+callback - for JSONP response
+publisher_id - the id of the publisher
+placement_id - the placement, should be XXX?!
+'''
 @deltaprice_module.route("/get_js")
 def get_js():
     try:
@@ -22,16 +25,18 @@ def get_js():
             {
                 "ip": request.remote_addr,
                 "callback": request.args.get("callback", False),
-                "tags": request.args.get("tags", False)
+                "publisher_id": request.args.get("tags", False),
+                "placement_id": request.args.get("tags", False)
             }
 
         #init data provider
-        deltaprice_provider = DeltaPriceProvider(request_data)
+        deltaprice_provider = DeltaPriceProvider()
         #get data from provider
-        response_data = deltaprice_provider.get_data()
+        response_data = deltaprice_provider.get_js(request_data)
         #make json
         response_json = json.dumps(response_data)
 
+        #JSONP
         if request_data["callback"]:
             response_json = "{0}({1})".format(request_data["callback"], json.dumps(response_data))
 
@@ -51,16 +56,18 @@ def get_data():
             {
                 "ip": request.remote_addr,
                 "callback": request.args.get("callback", False),
-                "tags": request.args.get("tags", False)
+                "publisher_id": request.args.get("publisher_id", False),
+                "placement_id": request.args.get("placement_id", False)
             }
 
         #init data provider
-        deltaprice_provider = DeltaPriceProvider(request_data)
+        deltaprice_provider = DeltaPriceProvider()
         #get data from provider
-        response_data = deltaprice_provider.get_data()
+        response_data = deltaprice_provider.get_data(request_data)
         #make json
         response_json = json.dumps(response_data)
 
+        #JSONP
         if request_data["callback"]:
             response_json = "{0}({1})".format(request_data["callback"], json.dumps(response_data))
 
