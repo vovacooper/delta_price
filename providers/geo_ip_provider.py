@@ -1,6 +1,7 @@
 __author__ = 'vovacooper'
 
 import requests
+
 from classes.logger import logger
 from classes.config import *
 

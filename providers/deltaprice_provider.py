@@ -14,8 +14,6 @@ class DeltaPriceProvider():
         return
 
     def get_js(self, request_data):
-
-
         return 'alert("No js in delta_price provider!!!!");'
 
     def get_data(self, request_data):
